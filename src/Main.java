@@ -35,8 +35,63 @@ public class Main {
             System.out.printf(year + " год является високосным");
         } else if (year % 100 > 0) {
             System.out.printf(year + " год не является високосным");
-    }
+        }
+
         // Условный оператор. Часть 2. Задание 4.
         System.out.println("Условный оператор. Часть 2. Задание 4.");
+        int deliveryDistance = 45;
+        if (deliveryDistance <= 20){
+            System.out.println(" Потребуется дней: 1 день");
+        } else if ( deliveryDistance > 20 &&  deliveryDistance <= 60) {
+            System.out.println(" Потребуется дней: 2 дня ");
+        } else if ( deliveryDistance > 60 && deliveryDistance <= 100) {
+            System.out.println(" Потреубется дней: 3 дня");
+        }
+
+        // Условный оператор. Часть 2. Задание 5.
+        System.out.println("Условный оператор. Часть 2. Задание 5.");
+
+        int monthNumber = 1;
+        switch (monthNumber) {
+            case 1:
+                System.out.println( " Месяц январь принадлежит к сезону зима");
+                break;
+            case 2:
+                System.out.println( " Месяц февраль принадлежит к сезону зима");
+                break;
+            case 3:
+                System.out.println( " Месяц март принадлежит к сезону весна");
+                break;
+            case 4:
+                System.out.println( " Месяц апрель принадлежит к сезону весна");
+                break;
+            case 5:
+                System.out.println( " Месяц май принадлежит к сезону весна");
+                break;
+            case 6:
+                System.out.println( " Месяц июнь принадлежит к сезону лето");
+                break;
+            case 7:
+                System.out.println( " Месяц июль принадлежит к сезону лето");
+                break;
+            case 8:
+                System.out.println( " Месяц август принадлежит к сезону лето");
+                break;
+            case 9:
+                System.out.println( " Месяц сентябрь принадлежит к сезону осень");
+                break;
+            case 10:
+                System.out.println( " Месяц октябрь принадлежит к сезону осень");
+                break;
+            case 11:
+                System.out.println( " Месяц ноябрь принадлежит к сезону осень");
+                break;
+            case 12:
+                System.out.println( " Месяц декабрь принадлежит к сезону зима");
+                break;
+            default:
+                System.out.println( " Такого месяца нет ");
+
+        }
     }
 }
